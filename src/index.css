@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  height: 100vh;
+  
+  overflow: hidden;
+}
+/* #player{
+  position: absolute;
+  top: 50px;
+  z-index: 10;
+} */
+
+.transition {
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms;
+}
+
+.example-exit {
+  opacity: 1;
+}
+
+.example-exit.example-exit-active {
+  opacity: 0.01;
+  transition: opacity 1000ms;
+}
